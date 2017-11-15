@@ -2,21 +2,32 @@
 <html>
 <head>
 <title>Comments!</title>
-<link href="stylesheets/style.css" rel = "stylesheet" type = "text/css"/>
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script src="javascripts/comments.js"></script>
 </head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+</style>
 
-<body>
-<form id="commentForm" action="">
-<label for="name">Name: </label><input type="text" id="name" placeholder="Name"><br>
-<label for="comment">comment: </label><input type="text" id="comment" placeholder="Comment"><br>
+
+<body background = "sharing.jpg">
+<h1>The Ultimate Online Photo-Sharing Experience</h1>
+<form id="commentForm" action="" style="padding: 15px 10px;">
+<label for="name">Name: </label><input type="text" id="name" placeholder="Name" style="margin: 15px 10px;"><br>
+<label for="comment">Comment: </label><input type="text" id="comment" placeholder="Comment" style= "margin: 15px 10px;" ><br>
 </form>
 
-<button id="postComment">Post Comment</button>
-<button id="getComments">Get Comments</button>
-<button id="deleteComments">Delete All</button>
+<button id="postComment" style="padding: 5px 10px; margin: 5px 5px;">Post Comment</button>
+<button id="getComments" style="padding: 5px 10px;">Get Comments</button>
+<button id="deleteComments" style="padding: 5px 10px;">Delete All</button>
 <div id="json"></div>
 <div id="done"></div>
 <div id="comments"></div>
