@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("#postComment").click(function(){
+  $("#postPhoto").click(function(){
       var myobj = {Name:$("#name").val(),Comment:$("#comment").val()};
       jobj = JSON.stringify(myobj);
       $("#json").text(jobj);
@@ -15,7 +15,7 @@ $(document).ready(function(){
 })
   });
 
- $("#getComments").click(function() {
+ $("#getPhotos").click(function() {
     $.getJSON('comment', function(data) {
       console.log(data);
       var everything = "<ul>";
@@ -28,7 +28,7 @@ $(document).ready(function(){
     })
   });
 
-  $("#deleteComments").click(function() {
+  $("#deletePhotos").click(function() {
     var url = "comment";
     $.ajax({
       url:url,
