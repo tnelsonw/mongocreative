@@ -1,0 +1,24 @@
+nohup: ignoring input
+connected
+[0mGET / [36m304 [0m7.033 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m1.548 ms - -[0m
+[0mGET /sharing.jpg [36m304 [0m1.073 ms - -[0m
+[0mGET / [36m304 [0m1.561 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.457 ms - -[0m
+[0mGET /sharing.jpg [36m304 [0m0.355 ms - -[0m
+comment get route
+[0mGET /comment [32m200 [0m13.601 ms - 2[0m
+[0mGET / [36m304 [0m1.601 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.762 ms - -[0m
+[0mGET /sharing.jpg [32m200 [0m3.084 ms - 250862[0m
+comment get route
+[0mGET /comment [32m200 [0m3.270 ms - 2[0m
+comment get route
+[0mGET /comment [36m304 [0m1.897 ms - -[0m
+comment get route
+[0mGET /comment [36m304 [0m1.640 ms - -[0m
+comment get route
+[0mGET /comment [36m304 [0m2.451 ms - -[0m
+[0mGET /javascripts/comments.js [36m304 [0m0.535 ms - -[0m
+[0mGET /sharing.jpg [36m304 [0m0.410 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m323.663 ms - 1818[0m
